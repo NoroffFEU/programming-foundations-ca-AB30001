@@ -31,11 +31,19 @@ Object Methods
 togglePower()
 A method that toggles the unlocked property of the iphone object. If unlocked is true, it will be set to false, and vice versa.
 
+---
+
 Example Usage
 Here's a basic example of how to use the iphone object:
 
-// Log the current battery percentage
-console.log(iphone.batteryPercentage); // Output: 80
+console.log(iphone) // Get all info about the object.
+console.log(iphone.brand) // Get the brand name
+console.log(iphone.model) // Get iphone model
+console.log(iphone.color) // Get color
+console.log(iphone.storageGB) // Get what storage GB
+console.log(iphone.features) // See what features
+
+console.log(iphone.batteryPercentage) //Get battery percentage in this case 80
 
 // Check if the phone is unlocked
 console.log(iphone.unlocked); // Output: false
